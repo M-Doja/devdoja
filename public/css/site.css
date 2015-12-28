@@ -1,0 +1,18 @@
+#info {
+  margin-left: 15px;
+  margin-bottom:-45px;
+}
+.icons img {
+  height: 150px;
+  width: 150px;
+}
+ .delayed {
+   vendor-animation-delay: 5s;
+ }
+ .foldUnfold {
+   -webkit-animation: foldUnfold 2000ms linear both;
+   animation: foldUnfold 2000ms linear both;
+ }
+ #bioInfo li b {
+   color:tan;
+ }
