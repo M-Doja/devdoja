@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap_theme.min.css">
-	<link rel="stylesheet" href="animate.css-master/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="animate.css-master/animate.min.css">
 	<!-- slick -->
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 			<!-- Add the slick-theme.css if you want default styling -->
@@ -14,43 +14,36 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<ul class="nav nav-tabs">
-			<li class="active">
-				<a href="#">Dev Doja</a>
-			</li>
-			<li>
-				<a href="/profile.html">Profile</a>
-			</li>
-			<li>
-				<a href="#contactForm">Contact</a>
-			</li>
-			<li class="dropdown pull-right">
-			<a href="https://www.facebook.com/Mic-Doja-Music-157293924309139/" target="_blank"><img height='45px' src='http://kulacountryfarmsmaui.com/wp-content/uploads/2015/11/facebook_facebook_icon_white_icon.png' alt="Facebook-icon"></a>
-				</li>
-			<li class="pull-right">
-			<a href="#"><img height='45px' src='http://www.shopizer.com/common/images/github.png' target="_blank" alt="Github-icon"></a>
-				</li>
-				<li class="pull-right">
-				<a href="#" style="height:67px;width:77px;"><img height='50px' src='https://s3.amazonaws.com/piktochartv2-dev/v2/uploads/67b846c5-9b77-4a95-a2dd-d693142ec62c/23435cc9762ef10d6d23c055abef34fa9e74b5da_original.png'target="_blank"  alt="LinkedIn-icon"></a>
-					</li>
-					<option>
 
-					</option>
-					</select>
-				</ul>
+		<section id='nav'>
+			<div id='sticker'>
+			<ul class="nav nav-tabs">
+				<li >
+					<a href="#home" class="arctic_scroll">Dev Doja</a>
+				</li>
+				<li>
+					<a href="#profile" class="arctic_scroll">Profile</a>
+				</li>
+				<li>
+					<a href="#skills" class="arctic_scroll">Skills</a>
+				</li>
+				<li>
+					<a href="#projects" class="arctic_scroll">Projects</a>
+				</li>
+				<li>
+					<a href="#resume" class="arctic_scroll">Resume</a>
+				</li>
+				<li>
+					<a href="#contact" class="arctic_scroll">Contact</a>
+				</li>
+			</ul>
+		</div>
+		</section>
+
+		<section id='home' class="active">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" style="margin-bottom:75px;">
 				<div class="jumbotron"><!-- LOGOS CAROUSEL -->
-
-					<!-- <h1 class="animated  fadeInLeftBig">Example</h1>
-					<h1 class="tlt" data-in-effect="rollIn" >Title of this is not done yet</h1>
-
-					<h1 class="tlt">
-					    <ul class="texts">
-					        <li data-in-reverse='true' data-out-effect="fadeOut" data-out-shuffle="true">Some Title</li>
-					        <li data-in-effect="fadeIn">Another Title</li>
-					    </ul>
-					</h1> -->
 
 					<p class=" tlt" data-in-reverse='true' style="text-align:center; color:rgb(238, 235, 99);margin-top:-20px;">
 						Web Design &  Developement - Web Applications - Prototypes
@@ -60,45 +53,222 @@
 					<div  style="background-image:url('/images/devDojaBanner.JPG');background-size:100%"class='icons'data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
 
 							<!-- ANGULAR JS LOGO -->
-					  <div><img src="https://camo.githubusercontent.com/6795c053f2fafee4d1c76f3a181876013827dd5e/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333437303430322f313230383630372f32376637643134322d323564362d313165332d386330372d6139316532633736396435322e706e67"><h1>Angular JS</h1></div>
+				  <div><img src="https://camo.githubusercontent.com/6795c053f2fafee4d1c76f3a181876013827dd5e/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333437303430322f313230383630372f32376637643134322d323564362d313165332d386330372d6139316532633736396435322e706e67"><h1>Angular JS</h1></div>
 
-							<!-- EXPRESS JS LOGO -->
-					  <div><img src="https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/Integrations-Expressjs-340x216.png"><h1>Express JS</h1></div>
+						<!-- EXPRESS JS LOGO -->
+				  <div><img src="https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/Integrations-Expressjs-340x216.png"><h1>Express JS</h1></div>
 
-							<!-- NODE JS LOGO -->
-					  <div><img src="http://code-maven.com/img/node.png"><h1>Node JS</h1></div>
+						<!-- NODE JS LOGO -->
+				  <div><img src="http://code-maven.com/img/node.png"><h1>Node JS</h1></div>
 
-							<!-- MONGO DB LOGO -->
-						<div><img src="https://s3.amazonaws.com/hackerleague-production/organizations/logos/512bb56489c01624c8000016/thumb.png?1361818978"><h1>Mongo DB</h1></div>
+						<!-- MONGO DB LOGO -->
+					<div><img src="https://s3.amazonaws.com/hackerleague-production/organizations/logos/512bb56489c01624c8000016/thumb.png?1361818978"><h1>Mongo DB</h1></div>
 					</div>
 					<div style="text-align:center">
 					<span><a style='margin-bottom:10px;margin-left:45px;margin-right:75px;width:200px;font-size:1.5em;' id='info'class="btn btn-default btn-large" href="/profile.html">Learn more</a></span>
 
-					<span class='animated tlt' data-in-effect="fadeIn" style="text-align:center;font-size:2.8em;">
+					<span class='animated tlt' data-in-effect="rotateIn" style="text-align:center;font-size:2.8em;">
 						Make your dreams a reality</span>
 					</div>
 
-
-
-
-
-									<!-- DIFFERENT BACKGROUND BANNERS -->
-					<!-- mobile app -->
-					<!-- http://www.xcubelabs.com/wp-content/uploads/2014/08/bpm.jpg -->
-					<!-- dev central -->
-					<!-- https://www.mapr.com/sites/default/files/1_1.jpg -->
-					<!-- Binary -->
-					<!-- https://www.carthage.edu/live/image/gid/46/3711_computerscience-banner-final.jpg -->
-
-
 				</div> <!-- END JUMBOTRON-->
 			</div> <!-- END CLASS COL-MD-12-->
-			<p style="text-align:center">2015 &copy Phoja Unlimited LLC</p>
-		</div> <!-- END CLASS ROW-->
+		</section>
+
+		<section id='profile' >
+
+			<div class="col-md-12 jumbotron" style="margin-top:75px;">
+				<a href="#nav" class="arctic_scroll" style='margin-top:-55px;margin-left:-40px;'>Top</a>
+			<div class="container-fluid ">
+		    <div class="row">
+		      <div class="col-md-12 ">
+
+		        <div>
+							<div>
+								<h2 style="text-align:center;" class="extruded" >
+										My goal is to help you reach yours.
+			          </h2>
+							</div>
+		        </div>
+		      </div>
+		    </div>
+		  		<div class="col-md-4">
+								<!-- CAPTION -->
+		  			<h4 style="text-align:center"><i>
+		  				I'm an artist at heart ~ me.
+		  			</i></h4>
+
+								<!-- SELF PORTRAIT -->
+						<img class='img img-responsive' alt="Bootstrap Image Preview" src="http://micdoja.com/wp-content/uploads/2015/02/about_pic-683x1024.jpg" style="max-height:325px;margin:0 auto;" />
+
+								<!-- QUICK FACTS -->
+							<p style="font-size:20px;margin-left:25px;">About Me</p>
+		  			<ul id='bioInfo' style="margin-left:-10px;">
+							<li><b>Name: </b> Micah Dunson</li>
+							<li><b>Company:</b> Co-Founder of Phoja Unlimited LLC</li>
+							<li><b>Title:</b> Musician / Programmer</li>
+							<li><b>Age: </b> 36yrs</li>
+							<li><b>Location: </b> Oxnard, Ca</li>
+							<li><b>Hobbies:</b> Coding, Hiking, Gaming, Cooking</li>
+						</ul>
+
+								<!-- YOUTUBE FEATURE VIDEO -->
+		        <iframe class='img img-responsive' width="460" height="215" src="https://www.youtube.com/embed/LQWriOmZIxQ" frameborder="0" allowfullscreen></iframe>
+		        <div class="container-fluid">
+		        	<div class="row">
+		        		<div class="col-md-12">
+		        			<p style="color:black">
+		        				Follow <a href='https://www.facebook.com/Mic-Doja-Music-157293924309139/' target='_blank'>Mic Doja Music</a> on social media!
+		        			</p>
+		        		</div>
+		        	</div>
+		        </div>
+
+		  		</div> <!-- END OF ROW-COL-4 -->
+
+
+
+
+
+
+
+
+								<!-- CONTENT AREA FOR SCROLLING -->
+
+						<div style='background-color:white;color:black;padding:10px;'>
+		  			<h3  class='animated tlt' data-in-effect="rotateIn" style="text-align:center">
+		  			 	Creativity is the beginning
+		  			</h3>
+
+		  			<p style="text-align:justify" >
+		  				For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.
+		  			</p>
+		  			<p style="text-align:justify;height:530px;">
+		  				Since that time I have completed a number of online courses from websites like Team TreeHouse, Codecadmey, and FreeCoderCamp ranging from WordPress basics to Full Stack Javascript development. I have even recently completed a team project working with Coder Camps, a bootcamp style school for teaching how to develop using the MEAN stack.
+		  			</p>
+					</div>
+					</section>
+
+			</div class="jumbotron">
+								<section id='skills' style="margin-top:75px;padding-top:65px;">										<!-- SKILLS SECTION -->
+									<a href="#nav" class="arctic_scroll">Top</a>
+						<div class=" section-class-name">
+						 <h3 style="text-align:center;">Experience & Skills</he>
+						</div>
+						<p style="text-align:center" >
+		  				I've worked on many projects and some of the technologies that I have worked with are the following:
+		  			</p>
+
+																	<!-- SKILLS ICON SECTION -->
+						<div id='iconXp' style="margin:0 auto;padding-left:40px;margin-bottom:150px">
+									<!-- ANGULAR JS LOGO -->
+								<img height='150' style='margin:15px' src="https://camo.githubusercontent.com/6795c053f2fafee4d1c76f3a181876013827dd5e/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333437303430322f313230383630372f32376637643134322d323564362d313165332d386330372d6139316532633736396435322e706e67">
+
+									<!-- EXPRESS JS LOGO -->
+								<img height='150' style='margin:15px' src="https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/Integrations-Expressjs-340x216.png">
+
+									<!-- NODE JS LOGO -->
+								<img height='150' style='margin:15px' src="http://code-maven.com/img/node.png">
+
+									<!-- MONGO DB LOGO -->
+								<img height='150' style='margin:15px' src="https://s3.amazonaws.com/hackerleague-production/organizations/logos/512bb56489c01624c8000016/thumb.png?1361818978">
+
+									<!-- HTML 5 LOGO -->
+								<img height='150' style='margin:15px' src="http://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
+
+									<!-- CSS 3 LOGO -->
+								<img height='150' style='margin:15px' src="http://4.bp.blogspot.com/-_jtoi-CBS3E/UDg91M4DgLI/AAAAAAAAC1Q/prAGfj6OSG4/s1600/css3-search-box.png">
+
+									<!-- JAVSCRIPT LOGO -->
+								<img height='150' style='margin:15px' src="http://www.demonixis.net/blog/wp-content/uploads/2014/03/javascript_logo.png">
+
+									<!-- JQUERY LOGO -->
+								<img height='150' style='margin:15px' src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif">
+
+									<!-- METEOR LOGO -->
+								<img height='150' style='margin:15px' src="http://addis.meteor.com/images/meteor-logo.png">
+
+									<!-- WORDPRESS LOGO -->
+								<img height='150' style='margin:15px;;' src="http://masterns-studio.com/wp-content/uploads/2013/10/wordpress.png">
+		  			</div>
+					</section>
+				</div>
+
+								<section id='projects' style="margin-top:175px;margin-bottom:175px;padding-top:65px;">								<!-- PROJECT SECTION -->
+									<a href="#nav" class="arctic_scroll">Top</a>
+							<h3 style="text-align:center" id='projects'class="section-class-name">
+			  				Projects
+			  			</h3>
+							<p>
+			  				For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.
+			  			</p>
+							<p>
+			  				For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.
+			  			</p>
+						</section>
+							<section id='resume'style="padding-top:65px;">
+								<a href="#nav" class="arctic_scroll">Top</a>
+							<h3 id='resume'class="section ">
+			  				H- Wow still going!
+			  			</h3>
+							<p>
+			  				For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.
+			  			</p>
+							<p>
+			  				For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.
+			  			</p>
+						</section>
+			  		</div> <!-- END OF SCROLL-->
+			  	</div> <!-- END OF COL-MD-8-->
+
+							<!-- CONTACT FORM -->
+							<section id='contact' style="padding-top:65px;">
+					<div class="col-md-12 well" style='margin-top:25px;' id='contactForm'>
+						<a href="#nav" class="arctic_scroll">Top</a>
+
+						<h2>Contact Me:</h2>
+						<p>For inquires please complete below</p><br>
+						<div class="form-container" style="margin-bottom:25px;">
+							<div style="float:right;margin-bottom:20px;">
+							<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:900px;margin-top:-100px;"><div id="gmap_canvas" style="height:500px;width:900px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">www.themecircle.net</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(34.24566,-119.17328600000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.24566, -119.17328600000002)});infowindow = new google.maps.InfoWindow({content:"<b>The Circle</b><br/>3049 Moss Landing Blvd<br/>93036 OXNARD" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						</div>
+						<form class="form-inline ">
+							<label style="padding-right:4px;">Name</label>
+							<input style="margin-bottom:5px;" type="text" placeholder="Name..."><br>
+							<label style="padding-right:7px;">Email</label>
+							<input style="margin-bottom:5px;" type="email" placeholder="Email..."><br>
+							<label>Phone</label>
+							<input style="margin-bottom:5px;" type="text" placeholder="Phone..."><br><br>
+							<label>Message: </label><br>
+							<textarea style="width:300px; height:150px;" type="text" placeholder="Message..."></textarea><br><br>
+							<input style="width:100px;background-color:tan;"type="submit" value='Submit'>
+
+						</form>
+					</div>
+				</div>
+			</section>
+
+						<!-- FOOTER -->
+				<div class="col-md-12"  >
+				<p style="text-align:center;">2015 &copy Phoja Unlimited LLC</p>
+					<div style="text-align:right;margin-top:-40px;margin-bottom:10px;margin-right:15px">
+					<a style="margin:15px;" href="https://www.facebook.com/Mic-Doja-Music-157293924309139/" target="_blank"><img height='45px' src='http://kulacountryfarmsmaui.com/wp-content/uploads/2015/11/facebook_facebook_icon_white_icon.png' alt="Facebook-icon"></a>
+					<a style="margin:15px;" href="#"><img height='45px' src='http://www.shopizer.com/common/images/github.png' target="_blank" alt="Github-icon"></a>
+					<a style="margin:15px;" href="#" style="height:67px;width:77px;"><img height='50px' src='https://s3.amazonaws.com/piktochartv2-dev/v2/uploads/67b846c5-9b77-4a95-a2dd-d693142ec62c/23435cc9762ef10d6d23c055abef34fa9e74b5da_original.png'target="_blank"  alt="LinkedIn-icon"></a>
+				</div>
+			</div>
+		  </div>
+
+
+
+
+		</div> <!-- END CLASS ROW -->
 	<script src="/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+	<script src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 	<script src="/javascript/app.js"></script>
 	<script src="/javascript/jquery.lettering-0.6.min.js"></script>
 	<script src="/javascript/textillate.js"></script>
+	<script src="/javascript/jquery.arctic_scroll.js"></script>
+	<script src="/javascript/sticky.js"></script>
 </body>
 </html>

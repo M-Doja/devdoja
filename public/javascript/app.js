@@ -13,13 +13,14 @@ $(document).ready(function(){
   // $('.tlt').textillate({ in: { effect: 'hinge', reverse: false } });
   $('.tlt').textillate();
 
-  $(".content").mCustomScrollbar({
-    axis:"y", // horizontal scrollbar
-    setHeight: 648,
-    theme: "string",
-    scrollInertia: 100
+
+
+// $('#navB ').localScroll({left:250, top:"50px"});
+
+$(function(){
+    $(".arctic_scroll").arctic_scroll({
+        speed: 800
+    });
 });
-
-
 
 });
