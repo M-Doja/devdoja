@@ -1,7 +1,9 @@
+/*'LEARN MORE' BTN POSITION*/
 #info {
   margin-left: 15px;
   margin-bottom:-45px;
 }
+
 .icons img {
   height: 150px;
   width: 150px;
@@ -13,12 +15,16 @@
    -webkit-animation: foldUnfold 2000ms linear both;
    animation: foldUnfold 2000ms linear both;
  }
+
+ /*BIO TEXT STYLING*/
  #bioInfo li b {
    color:tan;
  }
  #bioInfo li  {
    color:black;
  }
+
+ /*EXTRUDE PLUGIN STYLING*/
  .extruded {
     color: #888;
     font-family: proxima-nova-1, proxima-nova-2, 'Helvetica Neue', Arial, sans-serif;
@@ -37,6 +43,84 @@
     left: -6px;
     top: -6px;
 }
+
+/*KEEP NAVIGATION ON ON TOP OF SCREEN*/
 #sticker {
   position: fixed;
+}
+
+
+
+/* ANIMATED SOCIAL ICONS */
+.ghIcon {
+  background-image: url('/images/GH_icon.png');#609
+}
+.fbIcon {
+  background-image: url('/images/FB_icon.png'); #3a5795
+}
+.lkIcon {
+  background-image: url('/images/LK_icon.png');#006fa6
+}
+.thIcon {
+  background-image: url('/images/TH_icon.png');
+}
+.ghIcon:hover {
+  background-color:#609;
+}
+.fbIcon:hover {
+  background-color:#3a5795;
+}
+.lkIcon:hover {
+  background-color:#006fa6;
+}
+.thIcon:hover {
+  background-color: #4A913C;
+}
+.hover-panel {
+    /*background-color: #E6E2DF;*/
+    background-size:50px;
+    background-position: 292px 10px;
+    background-repeat: no-repeat;
+    color: #B2AAA4;
+    display: block;
+    float: left;
+    height: 130px;
+    width: 262px;
+    margin: 0 10px 10px 0;
+    padding: 15px;
+     -moz-transition: all 0.2s ease; /* FF3.7+ */
+       -o-transition: all 0.2s ease; /* Opera 10.5 */
+  -webkit-transition: all 0.2s ease; /* Saf3.2+, Chrome */
+          transition: all 0.2s ease;
+}
+.hover-panel h3 {
+    font-family: tandelle-1, tandelle-2, Impact, Sans-serif, sans;
+    font-size: 38px;
+    line-height: 1;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hover-panel p {
+    font-size: 12px;
+    width: 65%;
+}
+.hover-panel:hover {
+    /*background-color: #4A913C;*/
+    background-position: 105px 10%;
+}
+.hover-panel:hover h3 {
+    color: #FFF;
+    text-shadow: rgba(0, 0, 0, 0.398438) 0px 0px 4px;
+}
+.hover-panel:hover p {
+    color: #FFF:
+}
+/*PROJECTS*/
+#magazine{
+    width: 800px;
+    height: 400px;
+}
+#magazine .turn-page{
+    background-color:#ccc;
 }
