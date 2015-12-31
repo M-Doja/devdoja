@@ -9,11 +9,9 @@ $(document).ready(function(){
     arrows: false
   });
 
-  // $('#yourElement').addClass('animated fadeInLeftBig');
-  // $('.tlt').textillate({ in: { initialDelay: 15} });
-  // $('.tlt').textillate({ in: { effect: 'hinge', reverse: false } });
-  // animation on header
-  $('.tlt').textillate();
+
+// animation on header
+$('.tlt').textillate();
 
 
 
@@ -38,12 +36,6 @@ $("#MovieZoneDiv").hover(function(){
 });
 
 
-// flip icons
-// $("#card-grid").flip({
-//   axis: 'x',
-//   trigger: 'hover'
-// });
-// $("#card").flip({axis: 'x'});
 
 
 
