@@ -1,3 +1,4 @@
+
 /*'LEARN MORE' BTN POSITION*/
 #info {
   margin-left: 15px;
@@ -17,8 +18,10 @@
  }
 
  /*BIO TEXT STYLING*/
+
  #bioInfo li b {
-   color:tan;
+   color:black;
+   font-size:16px;
  }
  #bioInfo li  {
    color:black;
@@ -124,3 +127,5 @@
 #magazine .turn-page{
     background-color:#ccc;
 }
+
+/*flip icon*/

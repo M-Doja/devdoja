@@ -7,18 +7,20 @@
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap_theme.min.css">
 	<link rel="stylesheet" type="text/css" href="animate.css-master/animate.min.css">
 	<link rel="stylesheet" href="/jquery-modal/jquery.modal.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/css/component.css" type="text/css" media="screen" />
+	<!-- <link rel="stylesheet" href="/css/default.css" type="text/css" media="screen" /> -->
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
 	<!-- <link rel="stylesheet" type="text/css" href="/css/basic.css"> -->
 	<link rel="stylesheet" type="text/css" href="/css/site.css">
 </head>
-<body>
+<body style="background-color:rgb(78,108,140);">
 	<div class="container-fluid">
 
 		<!-- TOP NAVAGATION -->
 		<section id='nav'>
 			<div id='sticker'>
-				<ul class="nav nav-tabs">
+				<ul class="nav nav-tabs" style="font-family:Arimo;font-weight:bold;">
 					<li><a href="#nav" class="arctic_scroll">Dev Doja</a></li>
 					<li><a href="#profile" class="arctic_scroll">About</a></li>
 					<li><a href="#skills" class="arctic_scroll">Skills</a></li>
@@ -31,12 +33,12 @@
 
 
 		<!-- JUMBOTRON HEAD BANNER -->
-		<section id='home'>
+		<section id='home' >
 			<div class="row">
 				<div class="col-md-12" style="margin-bottom:100px;">
-					<div class="jumbotron">
+					<div style="background-color:rgb(171,182,202); margin-top:30px;">
 							<!-- HEADER TEXT -->
-						<p class=" tlt" data-in-reverse='true' style="text-align:center; color:rgb(238, 235, 99);margin-top:-20px;">Web Design &  Developement - Web Applications - Prototypes</p>
+						<p class=" tlt" data-in-reverse='true' style="text-align:center; margin-top:-22px;color:rgb(2,63,197);padding-top:30px;">Web Design &  Developement - Web Applications - Prototypes</p>
 							<!-- BACKGROUND BANNER IMAGE -->
 						<div  style="background-image:url('/images/devDojaBanner.JPG');background-size:100%"class='icons'data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
 								<!-- ANGULAR JS LOGO -->
@@ -49,8 +51,8 @@
 							<div><img src='/images/Mongo_badge.png'><h1>Mongo DB</h1></div>
 						</div>
 						<div style="text-align:center">
-							<span><a style='margin-bottom:10px;margin-left:45px;margin-right:75px;width:200px;font-size:1.5em;' id='info'class="btn btn-default btn-large arctic_scroll" href="#profile">Learn more</a></span>
-							<span class='animated tlt' data-in-effect="rotateIn" style="text-align:center;font-size:2.8em;">
+							<span><a style='margin-bottom:10px;margin-left:45px;margin-right:75px;width:200px;font-size:1.5em;color:gold;font-family:AR Essence' id='info'class="btn btn-default btn-large arctic_scroll" href="#profile">Learn more</a></span>
+							<span  class='animated infinite zoomIn '  style="text-align:center;font-size:2.8em;color:rgb(2,63,197);animation-duration: 10s;animation-delay: 3s;animation-iteration-count: infinite;font-family:AR Essence">
 							Make your dreams a reality</span>
 						</div>
 					</div> <!-- END JUMBOTRON-->
@@ -61,7 +63,7 @@
 
 		<!-- PROFILE SECTION -->
 		<section id='profile' style="padding-bottom:100px;">
-			<div class="col-md-12 jumbotron" style="margin-top:46px;">
+			<div class="col-md-12 jumbotron container-fluid" style="margin-top:46px;background-color:rgb(177,205,242)">
 				<a href="#nav" class="arctic_scroll" style='margin-top:-55px;margin-left:-40px;'>Top</a>
 				<div>
 					<h2 style="text-align:center;" class="extruded">
@@ -85,7 +87,10 @@
 		  		</div> <!-- END OF ROW-COL-4 PIC AND FACTS -->
 								<!-- CONTENT AREA  -->
 					<div style='background-color:white;color:black;padding:10px;padding-bottom:25px;'>
-		  			<h3  class='animated tlt' data-in-effect="rotateIn" style="text-align:center">
+
+						<!-- <span  class='animated infinite zoomIn '  style="text-align:center;font-size:2.8em;color:tan;animation-duration: 10s;animation-delay: 3s;animation-iteration-count: infinite;"> -->
+
+		  			<h3  class='animated bounceIn'  style="text-align:center;animation-duration: 5s;animation-delay: 3s;animation-iteration-count: infinite;font-family:AR Essence">
 		  			 	Creativity is the beginning
 		  			</h3>
 		  			<p style="text-align:justify;padding-right:15px;" >For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I started working on computer programming after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but nope, it was just javascript.</p>
@@ -114,71 +119,183 @@
 		</div>
 
 												<!-- SKILLS SECTION -->
-			<section id='skills' style="margin-top:75px;padding:65px 20px;">
+			<section id='skills' style="margin-top:75px;padding:65px 20px;background-color:rgb(171,182,202);">
 				<a href="#nav" class="arctic_scroll">Top</a>
 					<div class=" section-class-name">
-						 <h3 style="text-align:center;">Experience & Skills</he>
+						 <h1 style="text-align:center; color:tan;font-family:AR Essence">Experience & Skills</h1>
 					</div>
 					<p style="text-align:center" >
 	  				I've worked on many projects and some of the technologies that I have worked with are the following:
 	  			</p>
-					<div id='iconXp' style="margin:0 auto;padding-left:40px;margin-bottom:150px">
-						<!-- ANGULAR JS LOGO -->
-						<img height='150' style='margin:15px' src='/images/Angular_badge.png'>
-						<!-- EXPRESS JS LOGO -->
-						<img height='150' style='margin:15px' src="/images/Expressjs_badge.png">
-						<!-- NODE JS LOGO -->
-						<img height='150' style='margin:15px' src='/images/Node_badge.png'>
-						<!-- MONGO DB LOGO -->
-						<img height='150' style='margin:15px' src='/images/Mongo_badge.png'>
-						<!-- HTML 5 LOGO -->
-						<img height='150' style='margin:15px' src='/images/HTML5_badge.png'>
-						<!-- CSS 3 LOGO -->
-						<img height='150' style='margin:15px' src='/images/CSS3_badge.png'>
-						<!-- JAVSCRIPT LOGO -->
-						<img height='150' style='margin:15px' src='/images/Javascript_badge.png'>
-						<!-- JQUERY LOGO -->
-						<img height='150' style='margin:15px' src='/images/jQurery_badge.gif'>
-						<!-- METEOR LOGO -->
-						<img height='150' style='margin:15px' src='/images/Meteor_badge.png'>
-						<!-- WORDPRESS LOGO -->
-						<img height='150' style='margin:15px;;' src='/images/WordPress_badge.png'>
+
+
+
+
+					<div id='iconXp grid-container' style="margin:0 auto;padding-left:40px;margin-bottom:150px:transform-style:preserve-3d;">
+						<!-- Skill Icons -->
+						<ul class="grid cs-style-4" >
+							<li style="margin-right:-200px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150' style='' src='/images/HTML5_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-220px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/CSS3_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-200px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150' style='' src='/images/Javascript_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-200px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/JQurery_badge.gif'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-200px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/Node_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-200px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/Angular_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-200px;margin-bottom:50px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/Mongo_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-30px;margin-bottom:50px;">
+								<figure>
+									<img  height='150'  src='/images/Expressjs_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-30px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/Meteor_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li style="margin-right:-200px;">
+								<figure>
+									<img id='AngIcon' height='150'  src='/images/WordPress_badge.png'>
+									<figcaption>
+										<h3>Camera</h3>
+										<span>Jacob Cummings</span>
+										<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+									</figcaption>
+								</figure>
+							</li>
+							<!-- ... -->
+						</ul>
+					</section>
 					</div>
-				</section>
 
 
 					<!-- PROJECT SECTION -->
-				<section id='projects' style="margin-top:175px;margin-bottom:175px;padding:65px 20px;">
-					<a style="padding:20px;"href="#nav" class="arctic_scroll">Top</a>
-					<h3 style="text-align:center;margin-bottom:75px;" id='projects'class="section-class-name">Projects</h3>
+				<section id='projects' style="margin-top:175px;margin-bottom:175px;padding:65px 20px;background-color:rgb(177,205,242);" >
+					<div class="col-md-12 jumbotron container-fluid" style="margin-top:46px;background-color:rgb(177,205,242)">
 
-					<div class="container" style='text-align:center'>
+					<a style="padding:14px;"href="#nav" class="arctic_scroll">Top</a>
+					<h1 style="text-align:center;margin-bottom:40px;margin-top:-15px;color:tan;font-family:AR Essence" id='projects'class="section-class-name">Projects</h1>
+
+					<div class="container" >
 					<div class="row">
-						<div class="col-md-4">
+<div style="text-align:center">
+						<p style="margin-top:60px;" id='CoderNetBio'><h3 style="color:tan">Coder Net</h3><span style="color:#ab4312;"><b>The Problem:</b></span> For years I've created, written, and performed music for people all over the world.<br><br>
+						<span style="color:skyblue;"><b>The Solution:</b></span> I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.</p></div><br>
+
+						<div class="col-md-12" style="text-align:center;margin-bottom:60px;"id='CoderNetDiv'>
 							<a id="" href="#test" ><img height='150' src='/images/Coder-Net-Splash.PNG'/></a>
-							<p style="text-align:center;">Coder-Net</p>
+							<p style="text-align:center;margin-bottom:20px;">Coder-Net</p>
+
+							<div id='CoderNetDiv' style="display:none;margin-top:55px;text-align:left">
+								<img  height="170"src="/images/Coder-Net-Login.png"/><br> <p style="margin-top:10px;margin-left:75px;">Coder-Net Login Screenshot</p>
+								<img style=" margin-left:375px;margin-top:-275px;"height="165"src="/images/Coder-Net-Forum.png"/><br> <p style=" margin-left:460px;width:200px;margin-top:-60px;">Coder-Net Forum Screenshot</p>
+								<img style=" margin-left:805px;margin-top:-260px;"height="175"src="/images/Coder-Net-HmPg.png"/><br> <p style=" margin-left:875px;width:270px;margin-top:-45px;" >Coder-Net Homepage Screenshot</p>
+							</div>
 						</div>
-						<div class="col-md-4" style="margin-left:-30px;">
+
+						<div style="text-align:center">
+						<p id='MovieZoneBio'><h3 style="color:tan;">Movie Zone</h3><span style="color:#ab4312;"><b>The Problem:</b></span> For years I've created, written, and performed music for people all over the world.<br><br>
+						<span style="color:skyblue;"><b>The Solution:</b></span> I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.</p></div>
+						<div class="col-md-12" style="margin-left:-30px;text-align:center;padding-top:20px;margin-bottom:50px;" id='MovieZoneDiv'>
 							<a id="" href="#test"><img height='150' src='/images/IMDB-login.PNG'/></a>
 							<p style="text-align:center;">Movie Zone</p>
+
+							<div id='MovieZoneDiv' style="display:none;margin-top:55px;margin-left:-450px;">
+								<img  height="170"src="/images/IMDB-login.png"/><br> <p style="margin-top:10px;margin-left:820px;">Movie Zone Login Screenshot</p>
+								<img style=" margin-left:825px;margin-top:-275px;"height="175"src="/images/IMDB-HmPg.png"/><br> <p style=" margin-left:675px;width:250px;margin-top:-60px;">Movie Zone Homepage Screenshot</p>
+							</div>
 						</div>
-						<div class="col-md-4" >
-							<iframe style="margin-right:-20px;" class='img img-responsive' width="320" height="215" src="https://www.youtube.com/embed/LQWriOmZIxQ" frameborder="0" allowfullscreen></iframe>
+
+						<div style="text-align:center">
+						<p id='MusicBio'><h3 style="color:tan">Mic Doja Music</h3><span style="color:#ab4312;"><b>The Problem:</b></span> For years I've created, written, and performed music for people all over the world.<br><br>
+						<span style="color:skyblue;"><b>The Solution:</b></span> I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.</p></div>
+						<div class="col-md-12" id='YoutubeDiv'style="text-align:center;">
+							<iframe style="margin:0 auto;padding-top:45px;"class='img img-responsive' width="520" height="415" src="https://www.youtube.com/embed/LQWriOmZIxQ" frameborder="0" allowfullscreen></iframe>
 							<p style="color:white">Follow <a href='https://www.facebook.com/Mic-Doja-Music-157293924309139/' target='_blank'>Mic Doja Music</a> on social media!</p>
 						</div>
 					</div>
 					</div>
-					<p style="margin-top:60px;">For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.</p>
-					<div id="myProject">For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.</div>
-				</section>
 
+			</div>
+		</section>
 
 					<!-- RESUME SECTION -->
 				<section id='resume'style="padding:65px 20px;">
 					<a href="#nav" class="arctic_scroll">Top</a>
-					<h3 id='resume'class="section ">
+					<h1 id='resume'class="section" style="color:tan;font-family:AR Essence">
 	  				Check out my resume!
-	  			</h3>
+	  			</h1>
 					<p>For years I've created, written, and performed music for people all over the world. I started in my early teens discovering my creative side, first with music, then with paint and soon after, other outlets as well. Fastforward 3 years ago, this is when I became interested in computer code after watching a friend make a website from scratch. Seeing what could be done it almost seemed like magic, but no, it was just javascript.</p>
 					<p style="font-size:20px;text-align:center" >Click to download resume!<br><br>
 					<a  href='https://od.lk/d/MV8xMjUxODc5Mjlf/Developer%20Resume.doc'><img class='resume' height='200' src='/images/Download-img.png'/></a></p>
@@ -188,8 +305,8 @@
 				<section id='contact' style="padding-top:65px;">
 					<div class="col-md-12 well" style="margin-top:-20px;"id='contactForm'>
 						<a href="#nav" class="arctic_scroll">Top</a>
-						<h2 style="margin-top:125px;">Contact Me:</h2>
-						<p>Please feel free to contact me for inquires.</p><br>
+						<h1 style="margin-top:125px;color:tan">Contact Me:</h1>
+						<p style='color:tan;font-family:AR Essence'>Please feel free to contact me for inquires.</p><br>
 						<div class="form-container" style="margin-bottom:25px;">
 							<div style="float:right;margin-bottom:20px;margin-top:-120px;">
 								<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:900px;margin-top:-100px;"><div id="gmap_canvas" style="height:500px;width:900px;color:black"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">www.themecircle.net</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(34.24566,-119.17328600000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.24566, -119.17328600000002)});infowindow = new google.maps.InfoWindow({content:"<b>The Circle</b><br/>3049 Moss Landing Blvd<br/>93036 OXNARD" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
@@ -200,7 +317,7 @@
 								<span style="margin-bottom:5px;font-family:proxima-nova-1;color:tan;font-size:20px">Micah Dunson</span><br><br>
 								<img style='margin-right:10px;' height="30"src='/images/mail_32.svg'/>
 								<!-- <span style="padding-right:7px;font-size:20px">Email</span> -->
-								<span style="margin-bottom:5px;font-family:proxima-nova-1;color:tan;font-size:20px">DOJADEVELOPER@GMAIL.COM</span><br><br>
+								<span style="margin-bottom:5px;font-family:proxima-nova-1;color:tan;font-size:20px"><a href="mailto:DOJADEVELOPER@GMAIL.COM">DOJADEVELOPER@GMAIL.COM</a></span><br><br>
 								<img style='margin-right:10px;' height="30"src='/images/phone_32.svg'/>
 								<!-- <span>Phone</span> -->
 								<span style="margin-bottom:5px;font-family:proxima-nova-1;color:tan;font-size:20px">(805) 910-9378</span>
@@ -208,7 +325,19 @@
 							</form>
 						</div>
 					</div>
-				</section>
+				</section><!-- END OF CONTACT SECTION -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 					<!-- FOOTER -->
 			<div class="col-md-12"  >
@@ -223,15 +352,17 @@
 
 
 	<script src="/jquery/dist/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.18/dist/jquery.flip.min.js"></script>
 	<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="/jquery-modal/jquery.modal.min.js"></script>
+	<script src="/javascript/modernizr.custom.js"></script>
+	<script src="/javascript/toucheffects.js"></script>
 	<script src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 	<script src="/javascript/app.js"></script>
 	<script src="/javascript/jquery.lettering-0.6.min.js"></script>
 	<script src="/javascript/textillate.js"></script>
 	<script src="/javascript/jquery.arctic_scroll.js"></script>
 	<script src="/javascript/sticky.js"></script>
-	<!-- <script src="/javascript/jquery.simplemodal.js"></script>
-	<script src="/javascript/basic.js"></script>
-</body> -->
+
+
+</body>
 </html>
